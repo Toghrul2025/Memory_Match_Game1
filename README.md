@@ -1,29 +1,44 @@
-# -Memory-Match-Game
-Objective
-Develop a card-flipping memory game in Flutter. Players are presented with a grid of facedown cards and must find all matching pairs by flipping two cards at a time. The goal is to
-complete the board in the fewest attempts and shortest time.
-Game Mechanics
- Player flips two cards per turn.
- If the cards match, they stay face-up.
- If they do not match, they flip back after a brief delay.
- Game ends when all pairs are matched.
- Track number of moves and time taken.
- Optional: 2-player mode where turns alternate and scores are tracked.
-Pages and Required Features
-1. Home Page
- Start Game button
- Select difficulty (Easy 4x4, Medium 6x6, Hard 8x8)
- View Leaderboard or History
-2. Game Page
- Grid of face-down cards (based on difficulty)
- Tap to flip cards
- Timer and move counter at top
- Flip animation and match logic
- Game over dialog with results
-3. Result Dialog
- Time and moves summary
- Restart or return to home
-4. History / Leaderboard Page
- List of past game results (time, moves, difficulty)
- Show top 5 performances per difficulty
- Store locally (Hive or SharedPreferences)
+# Memory Match Game
+
+This is a Flutter-based memory match game that features a simple and responsive user interface, card matching logic, and a leaderboard system. The project supports web and can be run directly in the browser.
+
+## Setup
+
+To set up and run this project locally:
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/Toghrul2025/Memory_Match_Game1.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd Memory_Match_Game1
+   ```
+
+3. Install dependencies:
+   ```
+   flutter pub get
+   ```
+
+4. Run the project in Chrome:
+   ```
+   flutter run -d chrome
+   ```
+
+## Gameplay Rules
+
+- Players flip two cards at a time.
+- If the cards match, they remain visible; otherwise, they are hidden again.
+- The game continues until all card pairs are matched.
+- Player performance may be tracked on a leaderboard.
+
+
+## Credits
+
+**Author:**  
+Toghrul Naghiyev
+Nuran Taghiyev
+Elnur  
+ 
+ 

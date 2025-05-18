@@ -1,4 +1,26 @@
+<<<<<<< HEAD
 dependencies:
   flutter:
     sdk: flutter
   shared_preferences: ^2.2.2
+=======
+
+name: memory_match_game
+description: A memory match game with leaderboard.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+>>>>>>> 7787eb8 (İlk yükləmə)
