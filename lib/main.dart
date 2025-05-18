@@ -1,3 +1,28 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+import 'package:flutter/material.dart';
+import 'pages/home_page.dart';
+
+void main() {
+  runApp(const MemoryGameApp());
+}
+
+class MemoryGameApp extends StatelessWidget {
+  const MemoryGameApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Memory Game',
+      theme: ThemeData(primarySwatch: Colors.teal),
+      home: const HomePage(),
+      debugShowCheckedModeBanner: false,
+    );
+  }
+}
+=======
+>>>>>>> readme_fix
 
 import 'package:flutter/material.dart';
 import 'dart:async';
@@ -269,3 +294,7 @@ class CardModel {
 
   CardModel({required this.value, this.isFaceUp = false, this.isMatched = false});
 }
+<<<<<<< HEAD
+=======
+>>>>>>> 7787eb8 (İlk yükləmə)
+>>>>>>> readme_fix

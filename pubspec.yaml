@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+=======
+>>>>>>> readme_fix
 
 name: memory_match_game
 description: A memory match game with leaderboard.
@@ -17,3 +26,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+<<<<<<< HEAD
+=======
+>>>>>>> 7787eb8 (İlk yükləmə)
+>>>>>>> readme_fix
