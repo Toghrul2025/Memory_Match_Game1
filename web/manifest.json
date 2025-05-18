@@ -1,0 +1,8 @@
+{
+  "name": "Memory Match Game",
+  "short_name": "MemoryMatch",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "A memory match game built with Flutter."
+}
